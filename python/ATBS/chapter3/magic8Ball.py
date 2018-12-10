@@ -18,6 +18,9 @@ def getAnswer(answerNumber):
     elif answerNumber == 8:
         return 'Very doubtful.'
 
-r = random.randint(1,8)
-fortune = getAnswer(r)
-print(fortune)        
+
+# r = random.randint(1,8)
+# fortune = getAnswer(r)
+# print(fortune)        
+
+print(getAnswer(random.randint(1,8)))
