@@ -16,8 +16,8 @@
         - **HTTP**
         - **HTTPS**
     - Transport Layer (4)
-        - Port 80
-        - Port 443
+        - Port: 80
+        - Port: 443
     - Ports easily identifies traffic at Layer 4, so that systems know what Layer 7 protocol to use
 
 ### File Transfer - FTP, sFTP, TFTP
@@ -105,7 +105,7 @@
 ### Audio/Visual Protocols
 
 - **H.323**
-    - Port 1720/1721
+    - Ports: 1720/1721
     - A/V communication, typically used for video conferencing
 - **SIP** - Session Initiation Protocol
     - VOIP
