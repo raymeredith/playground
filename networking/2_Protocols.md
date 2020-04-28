@@ -26,7 +26,7 @@
 - FTP - File Transfer Protocol
     - Ports: 20 and 21
         - One port is used for authentication while the other is used for the transfer of information
-    > ftp://xx.xxx.xx.xxx
+    - > ftp://xx.xxx.xx.xxx
     - Typically want to use FTP clients like PuTTY, FileZilla, etc. in order to transfer files to and from
 - sFTP - Secure File Transfer Protocol
     - Encrypted traffic
@@ -39,7 +39,7 @@
     - Network file share
     - Port: 445
     - Mapped drive
-    > \\\tardis\someFolder
+    - > \\\server\someFolder
 
 ### Email
 
