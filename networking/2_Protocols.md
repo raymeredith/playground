@@ -13,8 +13,8 @@
 
 - Every Layer 7 protocol has an associated layer 4 Transport Layer protocol
     - Application Layer (7)
-        - HTTP
-        - HTTPS
+        - *HTTP*
+        - *HTTPS*
     - Transport Layer (4)
         - Port 80
         - Port 443
@@ -23,19 +23,19 @@
 ### File Transfer - FTP, sFTP, TFTP
 
 - Transfer files from client to server or vice versa
-- FTP - File Transfer Protocol
+- *FTP* - File Transfer Protocol
     - Ports: 20 and 21
         - One port is used for authentication while the other is used for the transfer of information
     - > ftp://xx.xxx.xx.xxx
     - Typically want to use FTP clients like PuTTY, FileZilla, etc. in order to transfer files to and from
-- sFTP - Secure File Transfer Protocol
+- *sFTP* - Secure File Transfer Protocol
     - Encrypted traffic
     - Port: 22
         - Also the port for SSH, FTP inside an SSH session
-- TFTP - Trivial File Transfer Protocol
+- *TFTP* - Trivial File Transfer Protocol
     - Meant for tiny files between 2 devices, or simple setups to transfer quickly without authentication or firewall issues
     - Port: 69
-- SMB - Server Message Block
+- *SMB* - Server Message Block
     - Network file share
     - Port: 445
     - Mapped drive
@@ -44,13 +44,13 @@
 ### Email
 
 - 3 protocols: POP3 (client), IMAP (client), SMTP (mail server)
-    - POP3 - Post Office Protocol
+    - *POP3* - Post Office Protocol
         - Transfer email from server to client
         - Ports: 110/995 (unencrypted/encrypted)
-    - IMAP - Internet Message Access Protocol
+    - *IMAP* - Internet Message Access Protocol
         - Transfer email from server to client
         - Ports: 143/993 (unencrypted/encrypted)
-    - SMTP - Simple Mail Transfer Protocol
+    - *SMTP* - Simple Mail Transfer Protocol
         - Sends email from client to server to send out to the recipient
         - Ports: 25/465 (unencrypted/encrypted)
     - All of these protocols operate in encrypted or unencrypted modes!
